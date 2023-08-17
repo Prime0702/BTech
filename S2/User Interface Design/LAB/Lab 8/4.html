@@ -1,0 +1,18 @@
+<!--
+    4.Write a JavaScript program to calculate number of days left unit next new year.
+Note : define a new object Date(2022,1,1);
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <script language="JavaScript">
+            const monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
+            const mdays=[31,28,31,30,31,30,31,31,30,31,30,31]
+            var today=new Date();
+            var nny=new Date(today.getFullYear()+1,1,1);
+            document.write("Time left till new year : ");
+            document.write(mdays[today.getMonth()]-today.getDate()," Days ");
+            document.write(12-today.getMonth()+1," Months")
+        </script>
+    </head>
+</html>

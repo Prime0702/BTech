@@ -1,0 +1,21 @@
+<!--
+    9. Load an image. Have a button below. When you click the button, another image should be loaded.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <script language="JavaScript">
+            function a(){
+                var img=document.getElementById("win");
+                if (img.src.match("https://44a8.short.gy/beast"))
+                    img.src = "https://44a8.short.gy/kgf_mal";
+                else
+                    img.src="https://44a8.short.gy/beast";
+            }
+        </script>
+    </head>
+    <body>
+        <img src="https://44a8.short.gy/beast" id="win">
+        <button onclick="a()">Change</button>
+    </body>
+</html>

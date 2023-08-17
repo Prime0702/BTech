@@ -1,0 +1,16 @@
+<!--
+    3.Print today’s date in the following manner.
+Date is : 4 May
+Time is : dd Hours : dd Minutes : dd Seconds
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <script language="JavaScript">
+            const monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November","December"];
+            var num=new Date();
+            document.write("Todays date : "+num.getDate()+" "+monthNames[num.getMonth()]+"<br>");
+            document.write("Time is : "+num.getHours()+" Hours : "+num.getMinutes()+"Minutes : "+num.getSeconds()+" Seconds");
+        </script>
+    </head>
+</html>
