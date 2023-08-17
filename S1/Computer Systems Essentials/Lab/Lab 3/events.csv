@@ -1,0 +1,5 @@
+event_id,event_name,event_type,allowed_participants,venue
+1,Group Song,Group,10,Stage1
+6,Fancy Dress,Individual,30,Stage1
+2,Group dance,Group,10,Stage3
+5,Mine,Group,10,Stage3
