@@ -1,0 +1,5 @@
+MVI A, 32H 
+MVI B, 48H 
+ADD B 
+OUT 01H
+HLT

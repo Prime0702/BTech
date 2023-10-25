@@ -1,0 +1,3 @@
+MVI A,01H 
+STA 4500H 
+HLT
