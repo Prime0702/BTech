@@ -1,0 +1,9 @@
+;Subtraction of 2 numbers 40H and 15H
+LDA 3000H
+MOV B,A
+LDA 3001H
+MOV C,A
+MOV A,B
+SUB C
+STA 3002H
+HLT

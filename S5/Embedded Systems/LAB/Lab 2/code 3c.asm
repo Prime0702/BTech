@@ -1,0 +1,11 @@
+	MVI C,00H 
+	LDA 7000H 
+	MOV B,A 
+	LDA 7001H 
+	ADD B 
+	JNC ahead 
+	INR C 
+ahead: STA 7002H 
+	MOV A,C 
+	STA 7003H 
+	HLT
