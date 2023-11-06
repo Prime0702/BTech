@@ -1,4 +1,3 @@
-;Addition of 2 numbers 1020H & 2040H
 LHLD 8501H    ; Get first 16-bit number in HL 
 XCHG               ; Save first 16-bit number in DE
 LHLD 8503H    ; Get second 16-bit number in HL
