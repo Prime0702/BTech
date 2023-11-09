@@ -20,5 +20,5 @@ def radixSortStrings(array):
     return array
 
 
-
+print(radixSortStrings(["abc", "ab", "a", "abcd", "abcde", "abc", "ab", "a", "abcd", "abcde"]))
 

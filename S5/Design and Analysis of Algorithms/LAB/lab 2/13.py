@@ -3,3 +3,5 @@ def gcd(a,b):
         return a
     else:
         return gcd(b,a%b)
+    
+print(gcd(10,5))
