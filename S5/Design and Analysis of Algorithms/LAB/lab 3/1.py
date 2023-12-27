@@ -12,7 +12,6 @@ def max_sum_subarray(arr:list,low:int,high:int)->tuple:
             return(right_low, right_high, right_sum)
         else:
             return(cross_low, cross_high, cross_sum)
-
 def  cross_subarray_sum(arr:list, low:int, mid:int, high:int)->tuple:
     left_sum = -(float('inf'))
     sum = 0
@@ -29,6 +28,6 @@ def  cross_subarray_sum(arr:list, low:int, mid:int, high:int)->tuple:
             right_sum = sum
             max_right = j
     return(max_left,max_right,left_sum+right_sum)
-
-arr = [5,3 , -2,1,6,7]
+arr = [-5 , 6 , 7 , -8 , 9 , 10 , -11 , 12]
 print(max_sum_subarray(arr,0,len(arr)-1))
+

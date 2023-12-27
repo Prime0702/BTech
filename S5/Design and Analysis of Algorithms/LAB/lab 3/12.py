@@ -1,7 +1,6 @@
 def can_partition(nums):
     total_sum = sum(nums)
     
-    # If the total sum is odd, it cannot be divided into two equal subsets
     if total_sum % 2 != 0:
         return False
     

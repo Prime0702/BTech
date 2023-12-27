@@ -12,9 +12,7 @@ def matrix_chain_order(p):
                 if q < m[i][j]:
                     m[i][j] = q
                     s[i][j] = k
-
     return m, s
-
 def print_optimal_parens(s, i, j):
     if i == j:
         print(f'M{str(i)}', end='')

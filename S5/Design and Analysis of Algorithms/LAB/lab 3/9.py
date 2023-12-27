@@ -15,7 +15,6 @@ def lcs(s1:str, s2:str):
                 c[i][j] = c[i][j-1]
                 b[i][j] = 'l'
     return b
-
 def print_lcs(b,s1,i,j):
     if i==0 or j==0:
         return
@@ -26,7 +25,6 @@ def print_lcs(b,s1,i,j):
         print_lcs(b,s1,i-1,j)
     else:
         print_lcs(b,s1,i,j-1)
-
 s1 = input()
 s2 = s1[::-1]
 b = lcs(s1,s2)
